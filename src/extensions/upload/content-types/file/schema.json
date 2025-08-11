@@ -1,0 +1,8 @@
+{
+  "folder": {
+    "type": "relation",
+    "relation": "manyToOne",
+    "target": "api::media-folder.media-folder",
+    "inversedBy": "files"
+  }
+}
