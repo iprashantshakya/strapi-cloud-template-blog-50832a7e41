@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "headers",
   "info": {
     "singularName": "header",
@@ -15,31 +15,15 @@
     }
   },
   "attributes": {
-    "Title": {
-      "type": "string",
+    "Header": {
+      "type": "component",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
-    },
-    "URL": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
-    },
-    "Icon": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "component": "shared.navigation",
+      "repeatable": true
     }
   }
 }
