@@ -15,17 +15,7 @@
       "required": true
     },
     "Icon": {
-      "type": "string",
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": ""
-            },
-            ""
-          ]
-        }
-      }
+      "type": "string"
     },
     "OpenInNewTab": {
       "type": "boolean",
