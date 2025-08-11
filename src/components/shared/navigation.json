@@ -14,9 +14,6 @@
       "type": "string",
       "required": true
     },
-    "Icon": {
-      "type": "string"
-    },
     "OpenInNewTab": {
       "type": "boolean",
       "default": false

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "headers",
+  "collectionName": "footers",
   "info": {
-    "singularName": "header",
-    "pluralName": "headers",
-    "displayName": "Header"
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +15,7 @@
     }
   },
   "attributes": {
-    "Logo": {
-      "type": "component",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.media",
-      "repeatable": false
-    },
-    "Header": {
+    "Footer": {
       "type": "component",
       "pluginOptions": {
         "i18n": {
